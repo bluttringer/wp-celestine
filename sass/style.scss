@@ -1,0 +1,50 @@
+@import "compass";
+@import "compass/reset";
+
+@import "_partials/mixins";
+@import "_partials/variables";
+@import "_partials/typography";
+
+@import "_partials/menu";
+
+body {
+	background-color: $bg-color;
+}
+
+#header-container {
+	width: 100%;
+	background: url(images/body_bg.png) repeat-x top;
+	height: $header-height;
+}
+
+#header {
+	background: url(images/head.png) center top no-repeat;
+	height: $header-height;
+}
+
+#header a:link, #header a:visited {
+	color: gray;
+	text-decoration: none;
+}
+
+#container {
+	background-color: white;
+	padding-top: 20px;
+	width: $container-width;
+	margin: 0 auto;
+}
+
+#menu-container {
+	width: $container-width;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 2em;
+	color: $h1-color;
+	padding: 10px 0;
+}
+
+article {
+	padding: 10px;
+}
