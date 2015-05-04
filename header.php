@@ -15,7 +15,7 @@
 	<meta name="viewport" content="width=device-width">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-	<link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Palanquin:400,500,700' rel='stylesheet' type='text/css'>
 	<!--[if lt IE 9]>
 	<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/html5.js"></script>
 	<![endif]-->
@@ -26,11 +26,18 @@
 <body>
 <div id="header-container">
 	<div id="header">
-		<div class="header">
-			<a href="<?php echo home_url(); ?>">
-			</a>
+		<div class="header-content">
+			<div class="header-text">
+				<a href="<?php echo home_url(); ?>">
+				<img src="<?php bloginfo('template_url'); ?>/images/texte-celestine.png"></img>
+				</a>
+			</div>
+			<div  class="header-logo">
+				<a href="<?php echo home_url(); ?>">
+				<img src="<?php bloginfo('template_url'); ?>/images/logo.png"></img>
+				</a>
+			</div>
 		</div>
-
 	</div>
 
 </div>

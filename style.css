@@ -74,7 +74,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 body {
   color: black;
   font-size: 14px;
-  font-family: "Muli", sans-serif;
+  font-family: "Palanquin", sans-serif;
   font-weight: 400;
   line-height: 1.6;
 }
@@ -251,7 +251,7 @@ html .menu ul a {
 /* IE7 */
 /* line 10, sass/style.scss */
 body {
-  background-color: #C8EFF5;
+  background-color: #B1E200;
 }
 
 /* line 14, sass/style.scss */
@@ -263,7 +263,7 @@ body {
 
 /* line 20, sass/style.scss */
 #header {
-  background: url(images/head.png) center top no-repeat;
+  background: url(images/header.png) center top no-repeat;
   height: 284px;
 }
 
@@ -274,6 +274,18 @@ body {
 }
 
 /* line 30, sass/style.scss */
+.header-content {
+  width: 800px;
+  margin: 0 auto;
+}
+
+/* line 35, sass/style.scss */
+.header-logo {
+  position: relative;
+  top: 20px;
+}
+
+/* line 40, sass/style.scss */
 #container {
   background-color: white;
   padding-top: 20px;
@@ -281,20 +293,21 @@ body {
   margin: 0 auto;
 }
 
-/* line 37, sass/style.scss */
+/* line 47, sass/style.scss */
 #menu-container {
   width: 800px;
   margin: 0 auto;
 }
 
-/* line 42, sass/style.scss */
+/* line 52, sass/style.scss */
 h1 {
   font-size: 2em;
-  color: #A574A3;
+  color: #FF8133;
   padding: 10px 0;
 }
 
-/* line 48, sass/style.scss */
+/* line 58, sass/style.scss */
 article {
   padding: 10px;
+  width: 600px;
 }
