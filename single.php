@@ -39,6 +39,8 @@ get_header(); ?>
 
 		// End the loop.
 		endwhile;
+
+		
 		?>
 
 		</main><!-- .site-main -->

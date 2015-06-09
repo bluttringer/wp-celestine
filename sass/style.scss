@@ -50,12 +50,106 @@ body {
 }
 
 h1 {
-	font-size: 2em;
+	font-size: 4em;
 	color: $h1-color;
 	padding: 10px 0;
 }
 
 article {
-	padding: 10px;
+	padding: 15px;
 	width: $article-width;
+}
+
+p {
+  line-height: 170%;
+  margin-bottom: 1.3em;
+}
+
+.aligncenter, img.aligncenter { 
+	clear: both; 
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto; 
+}
+
+/******************************************************************
+side sidebar styles
+******************************************************************/
+
+#sidebar { 
+	clear: left; 
+}
+
+#sidebar-side {
+	position: fixed;
+	top: $header-height + $sidebar-top-offset;
+	right: 60px;
+	width: 20%;
+	margin-left: 0;
+	padding-left: 2%;
+	float: right;
+}
+
+@media only screen and (max-width: 2000px) {
+#sidebar-side { width: 20%;	}
+}
+
+article.post-box[id*="post-"] {
+	padding-left: 1.3%;
+	padding-right: 1.3%;
+}
+
+#sidebar-side {
+	background: $sidebar-bg-color;
+	padding-top: 1px;
+	-webkit-border-top-left-radius: 20px;
+	-webkit-border-bottom-left-radius: 20px;
+	-moz-border-radius-topleft: 20px;
+	-moz-border-radius-bottomleft: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	-webkit-border-top-right-radius: 20px;
+	-webkit-border-bottom-right-radius: 20px;
+	-moz-border-radius-topright: 20px;
+	-moz-border-radius-bottomright: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+#sidebar-side .widget {
+	margin: 2em 0;
+	padding-right: 2em;
+	color: #fff;
+	text-shadow: 1px 1px #000;
+}
+
+#sidebar-side .widget a {
+	color: #eee;
+	text-decoration: none;
+}
+
+#sidebar-side .widget a:hover {
+	text-decoration: underline;
+}
+
+#sidebar-side .widget li,
+#meta.widget aside a {
+	border-top: 1px dotted #5b5b5b;
+	margin-bottom: 0;
+	padding: 7px 0;
+}
+
+#sidebar-side .widget li:last-child {
+	border-bottom: 1px dotted #5b5b5b;
+}
+
+#sidebar-side .widget ul.sub-menu li:last-child,
+#sidebar-side .widget ul.children li:last-child {
+	border-bottom: 0;
+}
+
+#sidebar-side .widget-title {
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #9dbb41;
 }
