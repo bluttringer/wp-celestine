@@ -105,21 +105,22 @@ body {
 /* line 24, sass/_partials/_menu.scss */
 .menu a {
   float: left;
-  height: 30px;
+  height: 2.4em;
   color: #000000;
   font: 14px/25px Arial, Helvetica;
   text-align: left;
   text-decoration: none;
   text-shadow: 0 1px 0 #FFF;
+  line-height: 1.2em;
 }
 
-/* line 36, sass/_partials/_menu.scss */
+/* line 37, sass/_partials/_menu.scss */
 .current-menu-item a {
   border-bottom: 2px solid #D93D49;
 }
 
 /* Sous-menu */
-/* line 42, sass/_partials/_menu.scss */
+/* line 43, sass/_partials/_menu.scss */
 .menu ul {
   list-style: none;
   margin: 0;
@@ -140,7 +141,7 @@ body {
   border-radius: 5px;
 }
 
-/* line 62, sass/_partials/_menu.scss */
+/* line 63, sass/_partials/_menu.scss */
 .menu ul li {
   float: none;
   margin: 0;
@@ -151,14 +152,14 @@ body {
   box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
 }
 
-/* line 72, sass/_partials/_menu.scss */
+/* line 73, sass/_partials/_menu.scss */
 .menu ul li:last-child {
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
 
-/* line 78, sass/_partials/_menu.scss */
+/* line 79, sass/_partials/_menu.scss */
 .menu ul a {
   padding: 10px;
   height: auto;
@@ -169,21 +170,21 @@ body {
   text-transform: none;
 }
 
-/* line 88, sass/_partials/_menu.scss */
+/* line 89, sass/_partials/_menu.scss */
 html .menu ul a {
   /* IE6 */
   height: 10px;
   width: 150px;
 }
 
-/* line 93, sass/_partials/_menu.scss */
+/* line 94, sass/_partials/_menu.scss */
 *:first-child + html .menu ul a {
   /* IE7 */
   height: 10px;
   width: 150px;
 }
 
-/* line 98, sass/_partials/_menu.scss */
+/* line 99, sass/_partials/_menu.scss */
 .menu ul a:hover {
   background: #0186ba;
   background: -moz-linear-gradient(#04acec, #0186ba);
@@ -194,14 +195,14 @@ html .menu ul a {
   background: linear-gradient(#04acec, #0186ba);
 }
 
-/* line 108, sass/_partials/_menu.scss */
+/* line 109, sass/_partials/_menu.scss */
 .menu ul li:first-child a {
   -moz-border-radius: 5px 5px 0 0;
   -webkit-border-radius: 5px 5px 0 0;
   border-radius: 5px 5px 0 0;
 }
 
-/* line 114, sass/_partials/_menu.scss */
+/* line 115, sass/_partials/_menu.scss */
 .menu ul li:first-child a:after {
   content: '';
   position: absolute;
@@ -214,12 +215,12 @@ html .menu ul a {
   border-bottom: 8px solid #444;
 }
 
-/* line 126, sass/_partials/_menu.scss */
+/* line 127, sass/_partials/_menu.scss */
 .menu ul li:first-child a:hover:after {
   border-bottom-color: #04acec;
 }
 
-/* line 130, sass/_partials/_menu.scss */
+/* line 131, sass/_partials/_menu.scss */
 .menu ul li:last-child a {
   -moz-border-radius: 0 0 5px 5px;
   -webkit-border-radius: 0 0 5px 5px;
@@ -227,7 +228,7 @@ html .menu ul a {
 }
 
 /* Rétablissement du flottement */
-/* line 137, sass/_partials/_menu.scss */
+/* line 138, sass/_partials/_menu.scss */
 .menu:after {
   visibility: hidden;
   display: block;
@@ -237,13 +238,13 @@ html .menu ul a {
   height: 0;
 }
 
-/* line 146, sass/_partials/_menu.scss */
+/* line 147, sass/_partials/_menu.scss */
 * html .menu {
   zoom: 1;
 }
 
 /* IE6 */
-/* line 147, sass/_partials/_menu.scss */
+/* line 148, sass/_partials/_menu.scss */
 *:first-child + html .menu {
   zoom: 1;
 }

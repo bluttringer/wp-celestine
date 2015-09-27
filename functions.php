@@ -234,6 +234,15 @@ function twentyfifteen_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'twentyfifteen_scripts' );
 
+function celestine_scripts_with_jquery()
+{
+    wp_register_script( 'menu-tip', get_template_directory_uri() . '/js/menu-tip.js', array( 'jquery' ) );
+ 
+    // For either a plugin or a theme, you can then enqueue the script:
+    wp_enqueue_script( 'menu-tip' );
+}
+add_action( 'wp_enqueue_scripts', 'celestine_scripts_with_jquery' );
+
 /**
  * Add featured image as background image to post navigation elements.
  *
