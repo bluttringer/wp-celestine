@@ -25,11 +25,13 @@
 		float: left;
 		height: 2.4em;
 		color: #000000;
-		font: 14px/25px Arial, Helvetica;
+		font: 15px/25px Arial, Helvetica;
 		text-align: left;
 		text-decoration: none;
-		text-shadow: 0 1px 0 #FFF;
+		text-shadow: 1px 1px 1px $h1-shadow-color;
 		line-height: 1.2em;
+
+
 	}
 	
 }
