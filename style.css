@@ -331,18 +331,29 @@ h4 {
 }
 
 /* line 78, sass/style.scss */
+h4.tribe-event-title {
+  font-size: 0.9em;
+  text-shadow: 0 0 0 black;
+}
+
+/* line 83, sass/style.scss */
+.tribe-event-duration {
+  font-size: 0.9em;
+}
+
+/* line 87, sass/style.scss */
 article {
   padding: 15px;
   width: 700px;
 }
 
-/* line 83, sass/style.scss */
+/* line 92, sass/style.scss */
 p {
   line-height: 170%;
   margin-bottom: 1.3em;
 }
 
-/* line 88, sass/style.scss */
+/* line 97, sass/style.scss */
 .aligncenter, img.aligncenter {
   clear: both;
   display: block;
@@ -350,36 +361,36 @@ p {
   margin-right: auto;
 }
 
-/* line 95, sass/style.scss */
+/* line 104, sass/style.scss */
 img.alignright {
   float: right;
   margin: 0 0 1em 1em;
 }
 
-/* line 96, sass/style.scss */
+/* line 105, sass/style.scss */
 img.alignleft {
   float: left;
   margin: 0 1em 1em 0;
 }
 
-/* line 97, sass/style.scss */
+/* line 106, sass/style.scss */
 img.aligncenter {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 98, sass/style.scss */
+/* line 107, sass/style.scss */
 .alignright {
   float: right;
 }
 
-/* line 99, sass/style.scss */
+/* line 108, sass/style.scss */
 .alignleft {
   float: left;
 }
 
-/* line 100, sass/style.scss */
+/* line 109, sass/style.scss */
 .aligncenter {
   display: block;
   margin-left: auto;
@@ -389,12 +400,12 @@ img.aligncenter {
 /******************************************************************
 side sidebar styles
 ******************************************************************/
-/* line 106, sass/style.scss */
+/* line 115, sass/style.scss */
 #sidebar {
   clear: left;
 }
 
-/* line 110, sass/style.scss */
+/* line 119, sass/style.scss */
 #sidebar-side {
   position: fixed;
   top: 384px;
@@ -406,18 +417,18 @@ side sidebar styles
 }
 
 @media only screen and (max-width: 2000px) {
-  /* line 121, sass/style.scss */
+  /* line 130, sass/style.scss */
   #sidebar-side {
     width: 20%;
   }
 }
-/* line 124, sass/style.scss */
+/* line 133, sass/style.scss */
 article.post-box[id*="post-"] {
   padding-left: 1.3%;
   padding-right: 1.3%;
 }
 
-/* line 129, sass/style.scss */
+/* line 138, sass/style.scss */
 #sidebar-side {
   background: #7F2264;
   padding-top: 1px;
@@ -435,7 +446,7 @@ article.post-box[id*="post-"] {
   border-bottom-right-radius: 20px;
 }
 
-/* line 146, sass/style.scss */
+/* line 155, sass/style.scss */
 #sidebar-side .widget {
   margin: 2em 0;
   padding-right: 2em;
@@ -443,18 +454,18 @@ article.post-box[id*="post-"] {
   text-shadow: 1px 1px #000;
 }
 
-/* line 153, sass/style.scss */
+/* line 162, sass/style.scss */
 #sidebar-side .widget a {
   color: #eee;
   text-decoration: none;
 }
 
-/* line 158, sass/style.scss */
+/* line 167, sass/style.scss */
 #sidebar-side .widget a:hover {
   text-decoration: underline;
 }
 
-/* line 162, sass/style.scss */
+/* line 171, sass/style.scss */
 #sidebar-side .widget li,
 #meta.widget aside a {
   border-top: 1px dotted #5b5b5b;
@@ -462,18 +473,18 @@ article.post-box[id*="post-"] {
   padding: 7px 0;
 }
 
-/* line 169, sass/style.scss */
+/* line 178, sass/style.scss */
 #sidebar-side .widget li:last-child {
   border-bottom: 1px dotted #5b5b5b;
 }
 
-/* line 173, sass/style.scss */
+/* line 182, sass/style.scss */
 #sidebar-side .widget ul.sub-menu li:last-child,
 #sidebar-side .widget ul.children li:last-child {
   border-bottom: 0;
 }
 
-/* line 178, sass/style.scss */
+/* line 187, sass/style.scss */
 #sidebar-side .widget-title {
   font-size: 16px;
   text-transform: uppercase;

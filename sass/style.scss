@@ -75,6 +75,15 @@ h4 {
 	text-shadow: 1px 1px 1px $h1-shadow-color;
 }
 
+h4.tribe-event-title {
+	font-size: 0.9em;
+	text-shadow: 0 0 0 black;
+}
+
+.tribe-event-duration {
+	font-size: 0.9em;
+}
+
 article {
 	padding: 15px;
 	width: $article-width;
